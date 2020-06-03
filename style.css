@@ -1,0 +1,137 @@
+.menu{
+  width: 800px;
+  background: black;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.intro{
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: flex; 
+  justify-content: center;
+  
+}
+
+
+img{
+  border: none;
+}
+
+.title{
+  position: absolute;
+  display: block;
+  color: grey;
+  margin-top: 300px;
+  
+  
+}
+.summary{
+  width: 400px;;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  display: block;
+  line-height: 30px;
+  margin: none;
+}
+.firstlist{
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  display: block;
+  line-height: 30px;
+}  
+
+.block{
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.container{
+  width: 800px;
+  display: block;
+  margin: auto;
+}  
+
+.section{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 10px;
+}
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+h1, h2{
+  font-family: 'Abril Fatface', cursive;
+  line-height: 10px;
+}
+h1{
+  font-size: 40px;
+}
+ h4, .details, .position, ul{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  display: block;
+  line-height: 25px;
+}
+
+}
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+blockquote{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: white;
+  background: grey;
+  padding: 10px;
+  margin: 0px;
+  margin-top:10px;
+  width: 200px;
+  height: 300px;
+  
+}
+blockquote::before{
+  content: '"';
+  font-size: 56px;
+  
+}
+ul{
+  font-size: 16px;
+
+}
+
+h4{
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.position{
+  font-style: italic;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  line-height: 1px;
+  
+}
